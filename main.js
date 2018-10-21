@@ -185,4 +185,8 @@
 
 	render();
 
+	// const table = divTable.children[0];
+	// table.style.overflowY = 'scroll';
+	// table.style.overflowScrolling = 'touch';
+
 }());

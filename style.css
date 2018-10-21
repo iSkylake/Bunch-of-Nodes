@@ -26,17 +26,19 @@ input, button {
 
 .div-table {
 	display: inline-block;
-	height: 60%;
-  margin-top: 50px;
+	height: 55%;
+  margin: 50px 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 table {
   display: block;
   border-collapse: collapse;
-  height: 90%;
+  height: 100%;
   overflow: scroll;
-  border-radius: 10px;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .table-header {
